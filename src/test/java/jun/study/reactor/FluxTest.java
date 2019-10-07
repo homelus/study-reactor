@@ -1,6 +1,5 @@
 package jun.study.reactor;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Flux;
 
@@ -34,5 +33,14 @@ public class FluxTest {
     void error() {
         Flux<String> res = Flux.error(IllegalStateException::new);
     }
+
+    @Test
+    void interval() {
+        Flux.interval(Duration.ofMillis(0))
+            .take(10);
+    }
+
+
+
 
 }
