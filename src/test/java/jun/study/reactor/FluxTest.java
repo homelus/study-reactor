@@ -40,6 +40,15 @@ public class FluxTest {
             .take(10);
     }
 
+    @Test
+    void test() {
+        Flux.just("a", "b")
+                .map(String::toUpperCase)
+                .take(1)
+                .doOnNext(System.out::println)
+                .subscribe();
+    }
+
 
 
 

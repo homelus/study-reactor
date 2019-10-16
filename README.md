@@ -2,8 +2,10 @@
 [tech io](https://tech.io/playgrounds/929/reactive-programming-with-reactor-3/Intro) 기반의 reactor3 개인 스터디
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## [Introduce to reactive programming](documents/tech.io/ko/introduce-to-reactive-programming.md)
 =======
+=======
+>>>>>>> f85e8b64fdef641eaa05b679d89b83fa145631a0
 ## 개요
-[Introduce to reactive programming](https://github.com/homelus/study-reactor/blob/master/documents/tech.io/ko/introduce%20to%20reactive%20programming)
->>>>>>> eedf7a2f35bff6cb1321c1de4dd803406183f098
+[Introduce to reactive programming](documents/tech.io/ko/introduce to reactive programming) 
