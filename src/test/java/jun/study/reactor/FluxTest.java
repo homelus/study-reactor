@@ -20,6 +20,17 @@ public class FluxTest {
     }
 
     @Test
+    void fluxStream() {
+        LazyService lazyService = new LazyService();
+
+        Flux.just(1, 2, 3, 4, 5, 6, 7, 8)
+                .doOnNext(lazyService::lazyAdd)
+                .map(d -> d + 10)
+                .take(6)
+                .subscribe(System.out::println);
+    }
+
+    @Test
     void emptyFlux() {
         Flux.empty();
     }
