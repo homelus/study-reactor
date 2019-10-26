@@ -11,7 +11,3 @@
 
 #### [Reactive Stream Introduction](documents/reference/3.%20Introduction%20to%20Reactive%20Programming.md)
 
-
-### DOC
-
-#### [Flux Doc](documents/docs/Flux.md)
