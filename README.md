@@ -5,7 +5,7 @@
 ## 개요
 [Introduce to reactive programming](documents/tech.io/ko/introduce-to-reactive-programming.md) 
 
-## 번역
+## 문서 개인 번역
 
 ### Reference
 
