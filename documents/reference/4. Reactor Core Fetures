@@ -1,0 +1,7 @@
+# 4. [Reactor Core Features](https://projectreactor.io/docs/core/release/reference/#core-features)
+
+Reactor 프로젝트의 메인구조는 Reactive Stream 명세에 초점을 맞추고 Java 8 에 타겟팅 된 Reactive 라이브러리인 **react-core** 입니다.
+
+Reactor 는 구성가능한 Publisher 를 구현하며 **Flux** 와 **Mono** 와 같은 여러 연산자들을 제공하는 reactive 타입을 소개했습니다.
+
+**Flux** 객체는 0 ~ N 개의 아이템의 reactive sequence 를 말합니다. 반면에 **Mono** 객체는 한개 혹은 존재하지 않는 객체를 나타냅니다. 
