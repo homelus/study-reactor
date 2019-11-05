@@ -1,4 +1,4 @@
-# study-reactor
+# study-reactor3
 ### [tech io](https://tech.io/playgrounds/929/reactive-programming-with-reactor-3/Intro) 기반의 reactor3 개인 스터디
 ### Reactive Stream 기반의 *Mono* 와 *Flux* 를 이해하자 !
 
