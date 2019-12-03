@@ -6,6 +6,9 @@ Spring 5 의 WebFlux 에는 Reactor3 를 이용한 다양한 기법들이 적용
 
 Reference 번역 테스트 코드를 통해 Reactive Streams 기반의 *Mono* 와 *Flux* 를 이해하는 것을 목표로 한다.
 
+> Reactor 는 JVM 에서 backpressure 와 함께 완전한 non-blocking reactive 프로그래밍의 기초를 이룬다.
+> 자바  8 에서 제공되는 함수형 API
+
 > `Mono` 와 `Flux` 는 **Reactive Streams** 의 Publisher로서 생성과 변환 등에 대한 다양한 연산자들을 지원한다. 
 > `Mono` 는 하나의 데이터에 대한 작업 흐름을 만드는 반면 `Flux` 는 여러개의 데이터를 처리할 수 있으며
 > 이들은 subscribe 을 통해 완료될 수 있다.
