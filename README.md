@@ -26,4 +26,4 @@ Reactor 는 [Reactive Extensions](http://reactivex.io/) 확장성있게 구현�
 - [Reactor Core Features](documents/reference/4.%20Reactor%20Core%20Features.md)
 
 ## ReactiveX 번역
- - [ReactiveX Introduction](documents/reactivex/ReactiveX%20Intro.md)
+ - [ReactiveX Introduction](documents/reactivex/Reactivex%20Intro.md.md)
