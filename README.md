@@ -18,9 +18,12 @@ Reactor 는 [Reactive Extensions](http://reactivex.io/) 확장성있게 구현�
 - NON BLOCKING IO
 `마이크로서비스` 아키텍처에 적합한 Reactor 는 HTTP(Websocket 포함), TCP, UDP 를 위한 `배압이 가능한 네트워크 엔진`을 제공합니다.
 
-## [tech.io Reactor 3 번역](https://tech.io/playgrounds/929/reactive-programming-with-reactor-3/Intro)
+## tech.io Reactor 3 번역
 - [Introduce to reactive programming](documents/tech.io/ko/introduce-to-reactive-programming.md) 
 
-## [Reactor 3 Reference Guide 번역](https://projectreactor.io/docs/core/release/reference/)
+## Reactor 3 Reference Guide 번역
 - [Reactive Stream Introduction](documents/reference/3.%20Introduction%20to%20Reactive%20Programming.md)
 - [Reactor Core Features](documents/reference/4.%20Reactor%20Core%20Features.md)
+
+## ReactiveX 번역
+ - [ReactiveX Introduction](documents/reactivex/ReactiveX%20Intro.md)
