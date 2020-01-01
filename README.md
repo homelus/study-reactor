@@ -1,6 +1,4 @@
-# Reactor3
-
-### Reactor 소개
+# Reactor 소개
 
 [본문](https://projectreactor.io/)
 
