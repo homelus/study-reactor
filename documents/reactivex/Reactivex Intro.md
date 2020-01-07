@@ -10,3 +10,8 @@ non-blocking I/O 와 같은 문제를 추상화하면서 sequences 를 선언적
 |---|---|---|
 |동기|T getData()|Iterable<T> getData()|
 |비동기|Future<T> getData()|Observable<T> getData()|
+
+때때로 "functional reactive programming" 이라고 불리지만 이는 잘못된 이름입니다.
+ReactiveX 는 functional 할 수 있고 reactive 할수도 있지만 "function reactive programming" 과는 다른 내용입니다.
+차이점 중 하나는 functional reactive programming 이 시간이 지남에 따라 지속적으로 변하는 값에 작동하는 반면 ReactiveX 는
+시간이 지남에 따라 전달되는 개별 값에 작동한다는 점입니다. [여기](https://github.com/conal/talk-2015-essence-and-origins-of-frp)를 참고하세요
